@@ -1,0 +1,11 @@
+version: '3'
+services:
+  structurizr:
+    platform: linux/amd64
+    restart: always
+    image: structurizr/lite
+    container_name: structurizr
+    ports:
+      - "${PORT}:8080"
+    volumes:
+      - ./data:/usr/local/structurizr
