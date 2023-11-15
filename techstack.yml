@@ -1,0 +1,38 @@
+repo_name: siner308/structurizr-docker
+report_id: 1fc57b8c83efc3016145728984f47f2f
+repo_type: Public
+timestamp: '2023-11-15T10:20:34+00:00'
+requested_by: siner308
+provider: github
+branch: main
+detected_tools_count: 3
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: JavaLite
+  description: Java set of tools and libraries designed for rapid development of enterprise
+    applications.
+  website_url: http://javalite.io
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9853/jl-logo.jpg
+  detection_source: docker-compose.yml
+  last_updated_by: jeonghyun.an
+  last_updated_on: 2023-01-27 03:25:12.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
