@@ -1,7 +1,8 @@
 repo_name: siner308/structurizr-docker
 report_id: 1fc57b8c83efc3016145728984f47f2f
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-15T10:20:34+00:00'
+timestamp: '2024-01-05T08:40:06+00:00'
 requested_by: siner308
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/siner308/structurizr-docker
   detection_source: Repo Metadata
 - name: JavaLite
   description: Java set of tools and libraries designed for rapid development of enterprise
@@ -23,6 +25,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9853/jl-logo.jpg
+  detection_source_url: https://github.com/siner308/structurizr-docker/blob/main/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: jeonghyun.an
   last_updated_on: 2023-01-27 03:25:12.000000000 Z
@@ -35,4 +38,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/siner308/structurizr-docker
   detection_source: Repo Metadata
